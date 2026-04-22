@@ -1,0 +1,12 @@
+// Script para o menu hamburguer
+
+function menuHamburguer() {
+    let menuMobile  = document.querySelector('.menu-mobile');
+    if(menuMobile.classList.contains('open')){
+        menuMobile.classList.remove('open')
+        document.querySelector('.icon').src = "/img/menu_white_36dp.svg"
+    }else{
+        menuMobile.classList.add('open')
+        document.querySelector('.icon').src = "/img/close_white_36dp.svg"
+    }
+} 

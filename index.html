@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    <header>
+        // Logo e Navegação
+        <a href="#" class="logo">​🍔 Dev Burguer</a>
+
+        <nav class="nav-list">
+            <a class="nav-item" href="#">Inicio</a>
+            <a class="nav-item" href="#cardapio">Cardápio</a>
+            <a class="nav-item" href="#sobre">Sobre</a>
+            <a class="nav-item" href="#contato">Contato</a>
+        </nav>
+     // Menu Hamburguer para Mobile
+        <div class="menu-mobile-icon">
+            <button onclick="menuHamburguer()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+        </div>
+
+        <nav class="menu-mobile">
+            <a class="nav-item" href="#">Inicio</a>
+            <a class="nav-item" href="#cardapio">Cardápio</a>
+            <a class="nav-item" href="#sobre">Sobre</a>
+            <a class="nav-item" href="#contato">Contato</a>
+             <a class="btn" href="https://wa.me/5599991195912?text=Olá! Gostaria de fazer um pedido na sua hamburgueria">Peça Agora</a>
+        </nav>
+        <div class="button-pecaAgora">
+            <a class="btn" href="https://wa.me/5599991195912?text=Olá! Gostaria de fazer um pedido na sua hamburgueria">Peça Agora</a>
+
+        </div>
+    </header>
+ // Seção Hero
+    <section class="hero-wrapper">
+
+        <article class="hero" data-aos="fade-right">
+
+            <div> 
+                <h1>O Melhor Hamburguer da Cidade </h1> 
+               
+                <p>Ingredientes frescos, receitas especiais e entrega rápida. Peça agora e receba em até 40 minutos!</p>
+                <nav class="hero-buttons">
+                    <a class="btn">Ver cardápio</a>
+                    <a href="https://wa.me/5599991195912?text=Olá! Gostaria de fazer um pedido na sua hamburgueria"
+                        class="btn btn-outline" target="_blank">​​​📲​ Whatsapp</a>
+                </nav>
+                // Destaques
+                <ul class="hero-stats">
+                    <li><strong>+500</strong>
+                    <span>Clientes Felizes</span></li>
+                    
+                    <li><strong> 4.9 ​​</strong><span>Avaliação​ ​⭐​</span></li>
+                    <li><strong>40min</strong>
+                       <span> Ou seu dinheiro de volta!</span> 
+                    </li>
+                </li>
+            
+                </ul>
+            </div>
+            <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="hamburguer" 
+        </article>
+    </section>
+// Seção Cardápio
+    <section id="cardapio" class="cardapio">
+            <h2>Nosso Cardápio</h2>
+            <p>Escolha seu favorito e saboreie o melhor hamburguer da cidade!</p>
+        // Itens do Cardápio
+            <ul class="menu-grid" >
+                <li>
+                    <img src="https://images.unsplash.com/photo-1607013251379-e6eecfffe234?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Burguer Clássico" data-aos="fade-up"
+ data-aos="fade-up">
+</div>
+                <span class="badge">Mais vendido</span>
+                <h3>Burguer Clássico</h3>
+                <p>Pão brioche, 180g de carne, queijo cheddar, alface, tomate e maionese</p>
+                <strong>R$ 29,90</strong>
+                <a href="https://wa.me/5591991471804?text=Olá! Gostaria de fazer um pedido na sua hamburgueria"
+                                                                        class="btn">Pedir</a>
+                </li>
+        
+                <li>
+                    <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Burguer Bacon" data-aos="fade-up"
+ data-aos="fade-up">
+</div>
+                <h3>Burguer Bacon</h3>
+                <p>Pão brioche, 180g de carne, bacon crocante, queijo, cebola caramelizada</p>
+                <strong>R$ 34,90</strong>
+                <a href="https://wa.me/5591991471804?text=Olá! Gostaria de fazer um pedido na sua hamburgueria" class="btn">Pedir</a>
+                </li>
+
+                <li>
+                    <img src="https://plus.unsplash.com/premium_photo-1683619761468-b06992704398?q=80&w=665&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Burguer Duplo" <div data-aos="fade-up"
+ data-aos="fade-up">
+</div>
+                <h3>Burguer Duplo</h3>
+                <span class="badge hot">Novidade</span>
+                <p>Pão brioche, 2x 180g de carne, dobro de queijo, bacon e molho barbecue</p>
+                <strong>R$ 42,90</strong>
+                <a href="https://wa.me/5591991471804?text=Olá! Gostaria de fazer um pedido na sua hamburgueria" class="btn">Pedir</a>
+                </li>
+            
+
+                <li>
+                    <img src="https://images.unsplash.com/photo-1561758033-7e924f619b47?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Burguer Veggie"
+                     data-aos="fade-up">
+
+                <h3>Burguer Veggie</h3>
+                <p>Pão integral, hamburguer de grão de bico, queijo, rúcula e maionese caseira</p>
+                <strong>R$ 32,90</strong>
+                <a href="https://wa.me/5591991471804?text=Olá! Gostaria de fazer um pedido na sua hamburgueria" class="btn">Pedir</a>
+                </li>
+
+                <li>
+                    <img src="https://plus.unsplash.com/premium_photo-1672774750509-bc9ff226f3e8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Batata Frita"  data-aos="fade-up">
+
+                    <h3>Batata Frita</h3>
+                <p>Porção generosa de batata frita crocante com sal e temperos especiais</p>
+                <strong>R$ 18,90</strong>
+                <a href="https://wa.me/5591991471804?text=Olá! Gostaria de fazer um pedido na sua hamburgueria" class="btn">Pedir</a>
+                </li>
+
+                <li>
+                    <img src="https://plus.unsplash.com/premium_photo-1695035006916-bb85c139c70c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Milkshake"  data-aos="fade-up">
+
+                <h3>Milkshake</h3>
+                <p>Delicioso milkshake de chocolate, morango ou baunilha</p>
+                <strong>R$ 12,90</strong>
+                <a href="https://wa.me/5591991471804?text=Olá! Gostaria de fazer um pedido na sua hamburgueria" class="btn">Pedir</a>
+                </li>
+    </section>
+  // Seção Sobre
+    <section id="sobre" class="sobre"  data-aos="fade-up-right">
+
+        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=600&amp;h=500&amp;fit=crop" alt="Nossa cozinha">
+        <article>
+            <h2>Nossa História</h2>
+            <p>Desde 2020, a Burguer House nasceu da paixão por hamburguers artesanais. <br> Nosso segredo? Ingredientes selecionados e muito amor em cada preparo! </p>
+            <ul>
+                <li>🥓<strong>Carne Fresca</strong>  - 100% bovina selecionada</li>
+                <li>🚀 <strong>Entrega Rápida</strong> - Máximo 40 minutos</li>
+                <li>💳 <strong>Pagamento Fácil</strong> - Pix, dinheiro e cartão de crédito</li>
+            </ul>
+        </article>
+    </section>
+  // Seção Call to Action
+    <section class="cta" id="cta">
+        <h2>Bateu a fome?</h2>
+        <p>Peça agora e receba seu pedido em até 40 minutos!</p>
+        <a href="https://wa.me/5591991471804?text=Olá! Gostaria de fazer um pedido na sua hamburgueria" class="btn btn-light"> 🚀 Pedir pelo Whatsapp</a>
+    </section>
+ // Seção Contato e Rodapé
+    <footer id="contato">
+        <section>
+            <h3>🍔 Burguer House</h3>
+            <p>O melhor hambúrguer artesanal da cidade.</p>
+        </section>
+
+        <section>
+        <h4>Horário</h4>
+        <p>Terça a Domingo 18h ás 23h</p>
+        </section>
+
+        <section>
+            <h4>Contato</h4>
+            <p>(91) 99147-1804
+                 Rua dos Burgers, 123 - Bairro Saboroso, Cidade Delícia
+            </p>
+        </section>
+
+        <section>
+            <h4>Redes Sociais</h4>
+            <p>Instagram: @burguerhouse</p>
+        </section>
+    
+                    <p class="copy">2026 - DevBurguer</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+  AOS.init();
+</script>
+</body>
+</html>
